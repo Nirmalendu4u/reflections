@@ -9,5 +9,8 @@ Forks are done on github repository to create our own repository by forking some
 Branches are be created locally by labelling a commit. Use when you want to do a POC or add a big feature.
 A clone of github repo can be creted on local. Use when you want to work offline.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+To resolve conflicts between local changes and remote changes
+
 
 
