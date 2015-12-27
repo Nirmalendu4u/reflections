@@ -1,2 +1,24 @@
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It is the area in between repository and the working directory. It prevents wrong commit
+
+How can you use the staging area to make sure you have one commit per logical change?
+After making a change which comprise a logical unit we can add it to staging area, and if it cannot be considered as a logical change we can remove it from the staging area until and we have a proper change to commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+In case of starting up a POC on existing code
+A specific request from a client using the app
+It would help in maintaining a clean separation of concern. If I want to do a POCI will have a different branch and its log. 
+
+How do the diagrams help you visualize the branch structure?
+It helps in visualising when a branch has been taken out and from which commit.
+All the branches and its root can be viewed thus giving a clear picture of what had happened and when did it happen.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+the code of one branch gets merged into another branch, hence adding the functionality someone else worked on into your branch. 
+Showing the merge in a diagram makes a programmer understand the whole merge process better.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic Merging:
+Helpful when different people are working on different feature/file/part of the code 
+Not Helpful when different people are working on the same feature/file/part of the code 
+Manual Merge: Merge itself is a hectic task for a developer and doing it always manually is more hectic. It needs a lot of concentration and might require the other guys help who also worked the same code.
