@@ -4,3 +4,10 @@ When we want live collabaration, two or more people working on the same project 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Because sometomes it can create undesirable conflicts. Pulling changes manually makes it sure that are ready to pull GitHub changes
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are done on github repository to create our own repository by forking someone elses repository. Use when you dont have access to edit a particular repo.
+Branches are be created locally by labelling a commit. Use when you want to do a POC or add a big feature.
+A clone of github repo can be creted on local. Use when you want to work offline.
+
+
+
