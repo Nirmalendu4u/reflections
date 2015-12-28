@@ -12,5 +12,10 @@ A clone of github repo can be creted on local. Use when you want to work offline
 What is the benefit of having a copy of the last known state of the remote stored locally?
 To resolve conflicts between local changes and remote changes
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+May be using SVN which is pretty similar like committing, merging, creating a branch etc.
+Since, I have an experience with SVN, I find it easier. Harder would be merging two branches in the repo.
+If I had to do it manually, I would have dropped the ball.
+
 
 
